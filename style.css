@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.common-button{
+    background-color: #1d4ed8FF;;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 10px 10px 10px 10px;
+    border-radius: 12px 12px 12px 12px;
+    padding: 12px;
+    width: 188px;
+    cursor: pointer;
+}
+header{
+    background-image: url(./Media/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 774px;
+    
+}
+.header-p{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.6000000238418579) 30.000001192092896%,rgba(0, 0, 0, 0) 69.9999988079071%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 41.74300134181976%,rgba(0, 0, 0, 0.8799999952316284) 87.43799924850464%);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 88px;
+    margin: auto;
+    padding: 0px 60px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+
+.nav-midle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner{
+    color: #FFFFFF;
+    width: 100%;
+    height: 685px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.banner h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 110px 0px 0px 0px;
+}
+
+.banner p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    width: 620px;
+    margin-top: -230px;
+}
+
+.B-button{
+    margin-bottom: 120px;
+}
+.speakers{
+    padding: 80px 60px;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    gap: 30px;
+    padding: 56px 0px 0px 0px;
+}
+.box img{
+    width: 100%;
+    display: block;
+}
+.box{
+    border-color: #e5e7ebFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.speakers h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+}
+.boxP1{
+    color: #2563EB;
+}
+.box h3{
+    color: #0D1B2A;
+}
+.boxP{
+    color: #575757;
+}
+
+.box-div-2{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 24px;
+}
