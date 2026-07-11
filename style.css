@@ -213,3 +213,30 @@ nav{
     background: #2563ebFF;
     color: #ffffffFF;
 }
+
+footer{
+    background-color: #0D1B2A;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: #ffffff66;
+}
+
+.upper-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.lower-footer{
+    padding: 30px 70px 0px 0px;
+}
+.icons{
+    font-size: 25px;
+    display: flex;
+    gap: 10px;
+}
+.icons a{
+    color: #ffffff66;
+}
