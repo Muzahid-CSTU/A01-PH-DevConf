@@ -41,7 +41,7 @@ nav{
 }
 
 
-.nav-midle{
+.nav-middle{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -92,7 +92,8 @@ nav{
     border-color: #e5e7ebFF;
     border-style: solid;
     border-width: 1px;
-    border-radius: 10px;
+    border-radius: 12px;
+    overflow: hidden;
 }
 .speakers h4{
     text-align: center;
@@ -114,4 +115,93 @@ nav{
     flex-direction: column;
     gap: 4px;
     padding: 24px;
+}
+
+
+.spot{
+    padding: 0px 60px 80px 60px;
+}
+.spot-1{
+    text-align: center;
+}
+.spot-1 h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.spot-1 p{
+    color: #575757FF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 0px 0px 0px;
+}
+.spot-2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    justify-content: center;
+    padding: 48px 0px 0px 0px;
+}
+.card{
+    border-color: #e5e7ebFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    gap: 10px;
+    width: 308px;
+}
+.card-container{
+    padding: 32px 34px 32px 32px;
+    display: flex;
+    flex-direction: column;
+}
+.card-div-1{
+    padding: 0px 0px 20px 0px;
+}
+.card-div-2{
+    padding: 20px 0px 20px 20px;
+}
+.card-div-2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-p-1{
+    font-size: 13px;
+    font-weight: 600px;
+}
+.card h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+.card-button{
+    width: 100%;
+    border-color: #2563ebFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px;
+    color: #2563EB;
+}
+
+.middle-card{
+    background: #0d1b2aFF;
+}
+.middle-card .card-p-1{
+    color: #93c5fdFF;
+}
+.middle-card h1{
+    color: #ffffff;
+}
+.middle-card p{
+    color: #ffffff80;
+}
+.middle-card .card-div-2{
+    color: #ffffffCC;
+}
+
+.middle-card .middle-card-button{
+    background: #2563ebFF;
+    color: #ffffffFF;
 }
