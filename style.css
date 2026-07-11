@@ -184,7 +184,15 @@ nav{
     padding: 11px;
     color: #2563EB;
 }
-
+.card-ul-1-3{
+    color: #333333FF;
+}
+.hr-side{
+    background: #e5e7ebFF;
+}
+.hr-middle{
+    background: #ffffff1A; 
+}
 .middle-card{
     background: #0d1b2aFF;
 }
