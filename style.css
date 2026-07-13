@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: "Inter", sans-serif;
 }
 
 .common-button{
@@ -39,8 +40,6 @@ nav{
     border-width: 1px;
     border-color: #000000;
 }
-
-
 .nav-middle{
     display: flex;
     align-items: center;
@@ -71,10 +70,10 @@ nav{
     width: 620px;
     margin-top: -230px;
 }
-
 .B-button{
     margin-bottom: 120px;
 }
+
 .speakers{
     padding: 80px 60px;
 }
@@ -118,7 +117,7 @@ nav{
 }
 
 
-.spot{
+.spot-container{
     padding: 0px 60px 80px 60px;
 }
 .spot-1{
@@ -135,11 +134,15 @@ nav{
     padding: 12px 0px 0px 0px;
 }
 .spot-2{
+    padding: 48px 0px 0px 0px;
+}
+.spot-2-container{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-content: center;
-    padding: 48px 0px 0px 0px;
+    max-width: 1150px;
+    margin: auto;
 }
 .card{
     border-color: #e5e7ebFF;
@@ -147,10 +150,10 @@ nav{
     border-width: 1px;
     border-radius: 12px;
     gap: 10px;
-    width: 308px;
+    max-width: 350px;
 }
 .card-container{
-    padding: 32px 34px 32px 32px;
+    padding: 32px 32px 32px 32px;
     display: flex;
     flex-direction: column;
 }
@@ -217,6 +220,7 @@ nav{
     color: #ffffffFF;
 }
 
+/* This section generate by ai */
 .schedule-venue{
     padding: 80px 60px;
 }
@@ -360,6 +364,7 @@ nav{
         grid-template-columns: 1fr;
     }
 }
+/* Ai generated part end here */
 
 footer{
     background-color: #0D1B2A;
