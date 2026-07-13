@@ -26,7 +26,7 @@ header{
     background: linear-gradient(to left, rgba(0, 0, 0, 0.6000000238418579) 30.000001192092896%,rgba(0, 0, 0, 0) 69.9999988079071%);
     background: linear-gradient(to left, rgba(0, 0, 0, 0) 41.74300134181976%,rgba(0, 0, 0, 0.8799999952316284) 87.43799924850464%);
 }
-
+/* navbar start here */
 nav{
     display: flex;
     align-items: center;
@@ -45,7 +45,9 @@ nav{
     align-items: center;
     gap: 10px;
 }
+/* navbar end here */
 
+/* Hero sectin start here */
 .banner{
     color: #FFFFFF;
     width: 100%;
@@ -56,13 +58,11 @@ nav{
     justify-content: space-between;
     
 }
-
 .banner h1{
     font-size: 80px;
     font-weight: bold;
     margin: 110px 0px 0px 0px;
 }
-
 .banner p{
     font-size: 20px;
     font-weight: 300;
@@ -73,7 +73,10 @@ nav{
 .B-button{
     margin-bottom: 120px;
 }
+/* Hero sectin end here */
 
+
+/* Meet the Speakers sectin start here */
 .speakers{
     padding: 80px 60px;
 }
@@ -115,8 +118,9 @@ nav{
     gap: 4px;
     padding: 24px;
 }
+/* Meet the Speakers sectin end here */
 
-
+/* Secure Your Spot sectin start here */
 .spot-container{
     padding: 0px 60px 80px 60px;
 }
@@ -219,6 +223,7 @@ nav{
     background: #2563ebFF;
     color: #ffffffFF;
 }
+/* Secure Your Spot sectin end here */
 
 /* This section generate by ai */
 .schedule-venue{
@@ -366,6 +371,7 @@ nav{
 }
 /* Ai generated part end here */
 
+/* Footer star here */
 footer{
     background-color: #0D1B2A;
     padding: 40px 60px;
@@ -392,3 +398,4 @@ footer{
 .icons a{
     color: #ffffff66;
 }
+/* Footer end here */
